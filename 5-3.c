@@ -29,7 +29,6 @@ void strcat_KR(char *s, char *t)
     j = 0;
     while(s[i] != '\0')
     {   
-        printf("%c",s[i]);
         i++;
     }
     while(t[j] != '\0')
@@ -37,10 +36,7 @@ void strcat_KR(char *s, char *t)
         s[i] = t[j];
         i++;
         j++;
-        printf("$");
     }
 
     s[i] = '\0';
-    
-    printf("s:%s\tt:%s\n",s,t);
 }
